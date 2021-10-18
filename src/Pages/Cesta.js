@@ -10,7 +10,7 @@ function Cesta() {
   return (
     <>
       <Image source={topo} style={estilos.topo} />
-      <Text style={estilos.titulo}>Detalhes da cesta</Text>
+      <Text style={estilos.titulo}>Detalhes da cestaa</Text>
 
       <View style={estilos.cesta}>
         <Text style={estilos.nome}>Cesta de verduras</Text>
@@ -52,7 +52,7 @@ const estilos = StyleSheet.create({
     fontSize: 26,
     lineHeight: 42,
     color: '#464646',
-    fontWeight: 'bold'
+    fontFamily: 'MontserratBold',
   },
   fazenda: {
     flexDirection: 'row',
@@ -67,6 +67,7 @@ const estilos = StyleSheet.create({
     fontSize: 16,
     lineHeight: 26,
     marginLeft: 12,
+    fontFamily: 'MontserratRegular',
   },
   descricao: {
     color: '#A3A3A3',
