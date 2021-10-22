@@ -17,9 +17,9 @@ const estilos = StyleSheet.create({
     flexDirection: 'row',
     borderBottomWidth: 1,
     borderBottomColor: '#ECECEC',
-    paddingVertical: 16,
     alignItems: 'center',
-    padding: 16,
+    marginHorizontal: 16,
+    paddingVertical: 16,
   },
   imagem: {
     width: 46,

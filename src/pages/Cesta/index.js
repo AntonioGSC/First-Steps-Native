@@ -23,7 +23,8 @@ function Cesta({ topo, detalhes, itens }) {
               </View>
             </>
           );
-        }}></FlatList>
+        }}
+      />
     </>
   )
 }
